@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsPage">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+
+        android:layout_height="250dp"/>
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Shawerma"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textColor="#9C27B0"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Specification"/>
+    <TextView
+        android:id="@+id/item_specification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textColor="#363437"
+        android:textSize="18dp"
+        android:text="Specification"/>
+
+</LinearLayout>
